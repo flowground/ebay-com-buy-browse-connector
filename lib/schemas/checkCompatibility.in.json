@@ -1,0 +1,36 @@
+{
+    "type": "object",
+    "properties": {
+        "item_id": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "compatibilityProperties": {
+                    "description": "An array of attribute name/value pairs used to define a specific product. For example: If you wanted to specify a specific car, one of the name/value pairs would be &quot;name&quot; : &quot;Year&quot;, &quot;value&quot; : &quot;2019&quot; For a list of the attributes required for Cars and Trucks and Motorcycles see Required Attributes.",
+                    "items": {
+                        "description": "The type the defines attribute name/value pair fields that specify a product. The type of data depends on the context. For example, if you were using this to specify a specific vehicle, the attribute names would be Make, Model, Year, etc.",
+                        "properties": {
+                            "name": {
+                                "description": "The name of the attribute, such as Make, Model, Year, etc.",
+                                "type": "string"
+                            },
+                            "value": {
+                                "description": "The value for the name attribute, such as BMW, R1200GS, 2011, etc.",
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "type": "array"
+                }
+            },
+            "type": "object"
+        },
+        "X_EBAY_C_MARKETPLACE_ID": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

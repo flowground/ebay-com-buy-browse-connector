@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "fieldgroups": {
+            "required": false,
+            "type": "string"
+        },
+        "item_id": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

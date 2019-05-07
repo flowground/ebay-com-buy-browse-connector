@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "aspect_filter": {
+            "required": false,
+            "type": "string"
+        },
+        "category_ids": {
+            "required": false,
+            "type": "string"
+        },
+        "charity_ids": {
+            "required": false,
+            "type": "string"
+        },
+        "epid": {
+            "required": false,
+            "type": "string"
+        },
+        "fieldgroups": {
+            "required": false,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string"
+        },
+        "gtin": {
+            "required": false,
+            "type": "string"
+        },
+        "limit": {
+            "required": false,
+            "type": "string"
+        },
+        "offset": {
+            "required": false,
+            "type": "string"
+        },
+        "q": {
+            "required": false,
+            "type": "string"
+        },
+        "sort": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

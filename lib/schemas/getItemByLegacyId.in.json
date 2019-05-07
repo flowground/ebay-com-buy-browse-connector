@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "fieldgroups": {
+            "required": false,
+            "type": "string"
+        },
+        "legacy_item_id": {
+            "required": true,
+            "type": "string"
+        },
+        "legacy_variation_id": {
+            "required": false,
+            "type": "string"
+        },
+        "legacy_variation_sku": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

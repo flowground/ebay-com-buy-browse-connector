@@ -1,0 +1,43 @@
+{
+    "type": "object",
+    "properties": {
+        "aspect_filter": {
+            "required": false,
+            "type": "string"
+        },
+        "category_ids": {
+            "required": false,
+            "type": "string"
+        },
+        "epid": {
+            "required": false,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string"
+        },
+        "limit": {
+            "required": false,
+            "type": "string"
+        },
+        "offset": {
+            "required": false,
+            "type": "string"
+        },
+        "sort": {
+            "required": false,
+            "type": "string"
+        },
+        "requestBody": {
+            "description": "The type that defines the fields for the image information.",
+            "properties": {
+                "image": {
+                    "description": "The Base64 string of the image.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}
